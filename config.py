@@ -43,7 +43,7 @@ YOUR_API_KEY = getenv("YOUR_API_KEY", "")
 YOUR_API_URL = getenv("YOUR_API_URL", "")
 
 # Assistant settings
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 
 # Song download limits
