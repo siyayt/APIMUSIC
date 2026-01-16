@@ -15,7 +15,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 YT_API_KEY = ""
 YTPROXY = "https://tgapi.xbitcode.com"
 PLAYLIST_ID = -1003616869403
-MONGO_DB_URI = "mongodb+srv://L2RKING:BWF_MUSIC1@l2rking.1ikcd.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URI = "mongodb+srv://rajababutg01:rajababu@cluster0.w1wjm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 LIMIT_SECONDS = 900
 
 # --- FALLBACK API CONFIG ---
