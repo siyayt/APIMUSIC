@@ -1,22 +1,15 @@
 import asyncio
-import glob
-import json
 import os
-import random
 import re
-from concurrent.futures import ThreadPoolExecutor
 from typing import Union
-import string
-import requests
-import yt_dlp
+import aiohttp
+import aiofiles
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-from ytSearch import VideosSearch, Playlist
-from SHUKLAMUSIC import LOGGER
-from SHUKLAMUSIC.utils.database import is_on_off
+from youtubesearchpython.__future__ import VideosSearch, CustomSearch
+from SHUKLAMUSIC import LOGGER, app 
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
+from motor.motor_asyncio import AsyncIOMotorClient
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
 API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsLBqbOGhZNbALDfDsGZc6") 
