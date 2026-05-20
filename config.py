@@ -39,9 +39,9 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BOTXPRO1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+aUamAA43_p4xMWE1")
 
 # YT-API Get from @AmShashank on tg
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", None)
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
