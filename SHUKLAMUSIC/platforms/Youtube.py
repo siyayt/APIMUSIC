@@ -12,7 +12,7 @@ from SHUKLAMUSIC.utils.formatters import time_to_seconds
 from motor.motor_asyncio import AsyncIOMotorClient
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsLBqbOGhZNbALDfDsGZc6") 
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBots3OYSuzKa7u0PyQi3ifqT") 
 DOWNLOAD_DIR = "downloads"
 
 
