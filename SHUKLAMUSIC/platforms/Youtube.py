@@ -9,7 +9,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from SHUKLAMUSIC.utils.database import is_on_off
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
 
-API_URL = os.environ.get("API_URL", "https://api01.shrutibots.site")
+API_URL = os.environ.get("API_URL", "https://api.shrutibots.site")
 
 API_KEY = os.environ.get("API_KEY", "ShrutiBotsGYMPaiuBZ8toTyJvH0pl") ## Get This API KEY FROM: @SHRUTIAPIBOT 
 
