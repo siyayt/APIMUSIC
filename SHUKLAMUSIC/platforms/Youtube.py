@@ -11,8 +11,8 @@ from SHUKLAMUSIC import LOGGER, app
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
 from motor.motor_asyncio import AsyncIOMotorClient
 
-API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsGYMPaiuBZ8toTyJvH0pl") 
+API_URL = os.environ.get("SHRUTI_API_URL", "https://teaminflex.xyz")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "INFLEX68575028D") 
 DOWNLOAD_DIR = "downloads"
 
 
