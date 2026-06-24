@@ -12,8 +12,6 @@ from SHUKLAMUSIC.utils.formatters import time_to_seconds
 from motor.motor_asyncio import AsyncIOMotorClient 
 from config import DURATION_LIMIT, YT_API_KEY, YTPROXY_URL
 
-logger = LOGGER(__name__)
-
 # Worker fallback API (kept configurable through env for production overrides)
 WORKER_FALLBACK_API_URL = os.getenv(
     "WORKER_FALLBACK_API_URL",
