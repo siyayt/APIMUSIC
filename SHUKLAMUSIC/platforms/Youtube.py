@@ -13,7 +13,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 
      
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsMVt5e8TWmSe6KMwS82xJ")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsvZHqkat8Wga33bU3oS2d")
 DOWNLOAD_DIR = "downloads"
 
 def time_to_seconds(time):
